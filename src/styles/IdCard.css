@@ -1,0 +1,18 @@
+.IdCard-flex {
+    display:flex;
+    text-align: left;
+    border: 1px solid black;
+    margin : 10px;
+    padding: 10px;
+    height: 200px;
+}
+
+.IdCard-flex img{
+    height:100%;
+    padding-right: 10px;
+    /* width:100% */
+}
+
+.IdCard-span {
+    font-weight: bold;
+}

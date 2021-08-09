@@ -1,0 +1,18 @@
+.CreditCard {
+    border-radius: 10px;
+    height: 180px;
+    width: 300px;
+    margin:20px;
+    padding: 20px;
+}
+.CreditCard-type{
+    height: 20px;
+    text-align: right;
+}
+
+.CreditCard-number{
+    font-size:xx-large;
+}
+.CreditCard img {
+    height: 100%;
+}
