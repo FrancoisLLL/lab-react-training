@@ -3,9 +3,9 @@ import Rating from './Rating.jsx'
 import './../styles/DriverCard.css'
 const DriverCard = (props) => {
     return (
-        <div class="DriverCard">
+        <div className ="DriverCard">
             <img src={props.img} alt="" />
-            <div class = "DriverCard-details">
+            <div className = "DriverCard-details">
                 <p>{props.name}</p>
                 <Rating>{props.rating}</Rating>
                 <p>{props.car.model} {props.car.licensePlate}</p>

@@ -9,6 +9,10 @@ import CreditCard from './components/CreditCard.jsx'
 import Cards from './components/Cards.jsx'
 import Rating from './components/Rating.jsx'
 import DriverCard from './components/DriverCard.jsx'
+import LikeButton from './components/LikeButton.jsx'
+import ClickablePicture from './components/ClickablePicture.jsx'
+import NumbersTable from './components/NumbersTable.jsx'
+import FaceBook from './components/FaceBook.jsx'
 
 function App() {
   return (
@@ -94,6 +98,20 @@ function App() {
           model: "Audi A3",
           licensePlate: "BE33ER"
         }} />
+
+      <hr />
+      <LikeButton />
+      <LikeButton />
+      <hr />
+      <ClickablePicture
+        img='/img/persons/maxence.png'
+        imgClicked='/img/persons/maxence-glasses.png'
+      />
+      <hr />
+      <NumbersTable limit={12} />
+      <hr />
+      <FaceBook />
+
     </div>
   );
 }
