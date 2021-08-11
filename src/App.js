@@ -13,6 +13,7 @@ import LikeButton from './components/LikeButton.jsx'
 import ClickablePicture from './components/ClickablePicture.jsx'
 import NumbersTable from './components/NumbersTable.jsx'
 import FaceBook from './components/FaceBook.jsx'
+import RGBColorPicker from './components/RGBColorPicker';
 
 function App() {
   return (
@@ -111,6 +112,9 @@ function App() {
       <NumbersTable limit={12} />
       <hr />
       <FaceBook />
+      <hr />
+      <RGBColorPicker/>
+
 
     </div>
   );
