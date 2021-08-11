@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
 
-export class SingleColorPicker extends Component {
 
-
-    render() {
-        return (
-            <div>
+function SingleColorPicker(props) {
+    return (
+        <div>
                 <form>
-                    <input type="text" onChange = {this.props.cb} value={this.props.value} name = {this.props.color} />
+                    <input type="text" onChange = {props.cb} value={props.value} name = {props.color} />
                 </form>
             </div>
-        )
-    }
+    )
 }
 
 export default SingleColorPicker
+
